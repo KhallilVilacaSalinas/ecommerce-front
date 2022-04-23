@@ -1,0 +1,838 @@
+
+#contato  {
+    position: absolute;
+    top: 15px;
+    left: 40%;
+    text-align: center;
+    font-size: 20px;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    
+}
+
+#cadastrar_logar {
+    position: fixed;
+    left: 5px;
+    top: 1px;
+    bottom: 7px;
+    text-align: center;
+    font-size: 16px;
+    list-style: none;
+    position: absolute;
+    width: 50vw;
+    height: 32px;
+    display: flex;
+  
+    
+}
+
+
+#cadastrar_logar li {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    float: right;
+    margin-left: 5px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    padding-top: 10px;
+}
+
+
+#header-1{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+#logo {
+    float: left;
+    margin-left: 50px;
+    max-width: 10px;
+    padding-top: 25px;
+}
+
+ /* Estilização do Menu*/
+
+#menu {
+    text-align: center;
+    padding-top: 35px;
+    margin: 50px;
+    
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu ul li:hover {
+    background-color:dimgray;
+    width: 17%;
+}
+
+#menu ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    left: 27%;
+    display: none;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+#menu ul li ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#menu ul li:hover > ul, ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+   
+}
+
+#menu ul li ul li {
+    clear: both;
+    width: 80%;
+} 
+
+#marca_topo {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    padding-top: 35px;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ /* Estilização do Slider*/
+
+#slider-principal {
+    margin: 0 auto;
+    padding-top: 20px;
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 30px;
+    height: 32px;
+    background-color: transparent;
+    background-image: url("./img/seta.antes.png");
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 0;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 30px;
+    height: 32px;
+    background-color: transparent;
+    background-image: url("./img/seta.depois.png");
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    right: 0;
+}
+
+#produtos_destaques{
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+#blackfriday {
+   margin-left: 15%;
+   
+}
+
+
+
+#blackfriday2 {
+    margin-left: 20%;
+ }
+
+#nike {
+    font-size: 30px;
+    margin-left: 35px;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 30px;
+}
+
+#descricao {
+    font-size: 15px;
+    font-family: Paytone;
+    margin-left: 12%;
+}
+
+#rod_logo {
+    float: left;
+    margin-left: 50px;
+    max-width: 10px;
+    padding-top: 25px;
+    
+}
+
+#rod_container {
+    background-color: #000;
+    width: 100%;
+    height: 200px;
+}
+
+ /* Estilização do Rodapé*/
+
+#info {
+    color: #fff;
+    font-size: 20px;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+#info ul li, #contato_rod {
+    margin-left: 72%;
+    list-style: none;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#info ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 5px;
+}
+
+#info ul li:hover {
+    background-color: dimgray;
+    width: 22%;
+}
+
+ /* Estilização do Fale Conosco*/
+
+#conteudo {
+    font-size: 18px;
+    background-color: #000;
+    max-width: 94%;
+    margin: 30px;
+    color: #fff;
+}
+
+ /* Estilização do Fale Conosco e Trabalhe Conosco*/
+
+#trabalhe, #check {
+    background-color:#000;
+    font-size: 18px;
+    max-width: 94%;
+    color: #fff;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 17px;
+    top: 10px;
+    margin: 15px;
+}
+
+.grupo .campo {
+    padding: 17px;
+    top: 10px;
+    margin: 15px;
+}
+
+#botao {
+    background-color: #000;
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #fff;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+#botton {
+    padding-bottom: 10px;
+    margin-left: 26px; 
+}
+
+#botao:hover{
+    background: dimgray;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0, 0.2);
+    text-shadow: none;
+}
+
+textarea {
+    width: 650px;
+    height: 20x;
+    padding: 20px;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+#titulo{
+    color:#000;
+    margin-left: 25px; 
+    /*border: 2px solid #000;*/
+    max-width: 96%;
+    text-align: center;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#subtitulo {
+    color:#000;
+    margin-left: 25px; 
+    /*border: 2px solid #000;*/
+    max-width: 96%;
+    font-size: 15px;
+    text-align: center;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilização do Quem Somos*/
+
+#text{
+    background-color: black;
+    color: dimgray;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#card {
+    height: 50%;
+    max-width: 96%;
+    margin-left: 28px;
+}
+
+#H1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*border: 2px solid #000;*/
+}
+
+/* Estilização do Cadastrar*/
+  
+.main-cadastro {
+    background-color:#000;
+    color: #fff;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 17px;
+    top: 10px;
+    margin: 15px;
+    color: #fff;
+    width: 500px;
+    font-size: 25px;
+    left: 50%;
+}
+
+.register {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.campo1 {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.campo2 {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.campo3 {
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid blue;
+    padding: 10px;
+    font-size: 10px;
+    margin-bottom: 40px;
+}
+
+input:focus {
+    border-color: rosybrown;
+}
+
+input[type="submit"] {
+    background-color: #E60084;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#agreement {
+    margin-right: 5px;
+  }
+
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .template {
+    display: none;
+  }
+
+.login {
+    height: 100vh;
+    background-color: #bebebe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.loginContainer{
+    min-height: 400px;
+    width: 300px;
+    background-color:#FFF;
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginTitle {
+    margin-bottom: 10px;
+    color: #303030;
+}
+
+.login-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginInput{
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+}
+
+.loginInputBorder{
+    height: 1px;
+    width: 100%;
+    margin-top: -45px;
+    margin-bottom: 16px;
+    background: #cfcfcf;
+    transition: .3s ease-in-out;
+}
+
+.loginInputBorder::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    margin-bottom: 16px;
+    background: linear-gradient(120deg, #cfcfcf, #000);
+    transition: .3s ease-in-out;
+}
+
+.loginInput:focus + .loginInputBorder::after{
+width: 100%;
+}
+
+.loginInputBorder.error::after {
+    background: red
+}
+
+.loginSubmit{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    background: linear-gradient(120deg, #414040, #000, #414040);
+    background-size: 200%;
+    margin-bottom: 32px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.loginSubmit:disabled{
+    background: #cfcfcf;
+    cursor: not-allowed;
+}
+
+.loginSubmit:hover{
+    background-position: right ;
+}
+
+.loginSubmit.error {
+    background: red; 
+}
+
+.loginSubmit.sucess {
+    background: rgb(18, 151, 107); 
+}
+.loginCad{
+    font-size: 14px;
+    color: #929292;
+    text-decoration: none;
+}
+
+
+  /* Responsividade  */
+
+    @media screen and (max-width:1200px){
+        
+        #cadastrar_logar {
+            left: 73.5%;
+        }
+
+        #missao{
+            max-width: 700px;
+        }
+        #blackfriday img {
+            max-width: 700px;
+            float: none;
+            text-align: center;
+            display: center;
+            margin-right: 30px;
+            background-position: center;
+            
+         }
+        
+         #blackfriday2 img {
+            max-width: 700px;
+            float: none;
+            text-align: center;
+            display: center;
+            margin-right: 30px;
+            background-position: center;
+         }
+    
+    }
+
+    @media screen and (max-width:940px) {
+        div .main-cadastro{
+            margin: auto;
+            width: 400;
+            height: 300;
+            margin: center;
+        }
+        div .main-cadastro{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #cadastrar_logar {
+            left: 66%;
+        }
+        
+        #missao{
+            max-width: 700px;
+        }
+
+        #blackfriday img {
+            max-width: 500px;
+            float: none;
+            text-align: center;
+            display: center;
+            margin-right: 30px;
+            background-position: center;
+            
+         }
+         #menu-openner{
+            width: 8px;
+        }
+        
+         #blackfriday2 img {
+            max-width: 500px;
+            float: none;
+            text-align: center;
+            display: center;
+            margin-right: 30px;
+            background-position: center;
+         }
+    
+    }
+
+    @media screen and (max-width:865px) {
+        #menu-openner{
+            width: 8px;
+        }
+
+        div .main-cadastro{
+            margin: auto;
+            width: 600;
+            height: 300;
+            margin: center;
+        }
+        div .main-cadastro{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        #cadastrar_logar {
+            left: 63%;
+        }
+        
+
+        #missao{
+            max-width: 500px;
+        }
+
+        #blackfriday img {
+            max-width: 500px;
+            float: none;
+            text-align: center;
+            display: center;
+            margin-right: 30px;
+            background-position: center;
+            
+         }
+        
+         #blackfriday2 img {
+            max-width: 500px;
+            float: none;
+            text-align: center;
+            display: center;
+            margin-right: 30px;
+            background-position: center;
+         }
+         #menu-openner{
+            width: 8px;
+        }
+    }
+    
+ @media screen and (max-width:750px) {
+    nav li{
+        max-width: 600px;
+        float: none;
+       }
+
+       #cadastrar_logar {
+        left: 57%;
+    }
+
+       #missao{
+        max-width: 550px;
+    }
+
+       #blackfriday img {
+        max-width: 400px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        background-position: center;
+        
+     }
+    
+     #blackfriday2 img {
+        max-width: 400px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        background-position: center;
+     }
+     #menu-openner{
+        width: 8px;
+    }
+
+     footer div ul{
+        max-width: 600px;
+        margin: 0%;
+        padding: 0%;
+        display: center;
+        margin-right: 20%;
+        font-size: 90%;
+    }
+
+   }
+ 
+@media screen and (max-width: 600px) {
+    #menu-openner{
+        width: 8px;
+    }
+
+    #cadastrar_logar {
+        left: 46%;
+    }
+
+    #missao{
+        max-width: 500px;
+    }
+
+    #blackfriday img {
+        max-width: 400px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        background-position: center;
+        
+     }
+    
+     #blackfriday2 img {
+        max-width: 400px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        background-position: center;
+     }
+
+}
+
+@media screen and (max-width:540px) {
+    nav li{
+       max-width: 600px;
+       float: none;
+       text-align: center;
+       display: center;
+       margin-right: 30px;
+   }
+   #menu-openner{
+    width: 8px;
+}
+
+   #cadastrar_logar {
+    left: 40%;
+}
+
+   #missao{
+    max-width: 465px;
+   }
+
+   #blackfriday img {
+    max-width: 370px;
+    float: none;
+    text-align: center;
+    display: center;
+    margin-right: 30px;
+    position: center;
+    
+ }
+
+ #blackfriday2 img {
+    max-width: 370px;
+    float: none;
+    text-align: center;
+    display: center;
+    margin-right: 30px;
+    position: center;
+ }
+
+ 
+
+   footer div ul{
+       max-width: 600px;
+       margin: 0%;
+       padding: 0%;
+       display: center;
+       margin-right: 20%;
+       font-size: 75%;
+   }
+    fieldset div label{
+        width: auto;
+    }
+    form div fieldset label{
+       width: auto;
+    }
+    div .main-cadastro{
+       margin: 10px;
+       max-width: 800px;
+       width: auto;
+       height: 500px;
+   }
+   div p titulo-card{
+       font-size: 50%;
+       position: absolute;
+       margin: none;
+       display: flex;
+   }
+   div .campo1 label input{
+       width: 800px;
+   }
+}
+
+@media screen and (max-width:500px) {
+    #cadastrar_logar {
+        left: 35%;
+    }
+    #menu-openner{
+        width: 8px;
+    }
+}
+
+@media screen and (max-width:435px) {
+    nav li{
+        max-width: 600px;
+        float: none;
+        text-align: left;
+        display: center;
+        margin-right: 30px;
+        font-size: 10%;
+    }
+    footer div ul{
+        max-width: 800px;
+        margin: 0%;
+        padding: 0%;    
+        display: center;
+        margin-right: 20%;
+        font-size: 75%;
+    }
+}
+

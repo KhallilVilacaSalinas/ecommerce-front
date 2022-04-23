@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/stylecart.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <title>Sports Style - Produtos</title>
+        <style>
+            body {
+               background-color: #bebebe;
+            }
+        </style>  
+    </head> 
+
+<body>
+  <header>
+    <div class="menu-openner"><span>0</span>🛒</div>
+  </header>
+  <main>
+    <div id="header-1">
+        <div id="cadastrar_logar">
+            <li><a href="Login.html"><img src="img/login.png" /></a></li>
+        </div> 
+        
+        <div id="logo">
+        <li><a href="index.html"><img src="img/logo.png" /></a></li>
+    </div>
+
+    <nav id="menu">
+         <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="Quem Somos.html">Que somos</a></li>
+            <li><a href="Produtos.html">Produtos</a></li>
+            <li><a href="Fale Conosco.html">Fale conosco</a></li>
+            <li><a href="Trabalhe Conosco.html">Trabalhe conosco</a></li>
+         </ul>
+
+    </nav>
+     
+</div>
+    <br><br>
+    <h1>Sport Style - <span>Produtos</span></h1>
+    <div class="models-area"></div>
+  
+
+  <!--Modal-->
+  <div class="models-modal">
+    <div class="models-modal-content">
+      <div class="models-info--cancelMobileButton" onclick=Modal.close()>
+        Voltar
+      </div>
+
+      <img class="models-modal-img" src="" />
+
+      <div class="models-info">
+        <h1>--</h1>
+        <div class="models-info--desc">--</div>
+        <div class="models-info--sizearea">
+          <div class="models-info--sector">Tamanho</div>
+          <div class="models-info--sizes">
+            <div data-key="0" class="models-info--size">Tamanho: <span>--</span></div>
+            <div data-key="1" class="models-info--size">Tamanho: <span>--</span></div>
+            <div data-key="2" class="models-info--size selected">Tamanho: <span>--</span></div>
+          </div>
+        </div>
+
+        <div class="models-info--pricearea">
+          <div class="models-info--sector">Preço</div>
+          <div class="models-info--price">
+            <div class="models-info--actualPrice">R$ --</div>
+            <div class="models-info--qtarea">
+              <button class="models-info--qtmenos">-</button>
+              <div class="models-info--qt">1</div>
+              <button class="models-info--qtmais">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="models-info--addButton">Adicionar ao carrinho</div>
+        <div class="models-info--cancelButton" onclick=Modal.close()>
+          Cancelar
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Modal-->
+
+    <footer>
+        <div id="rod_container">
+                <div id="rod_logo">
+                    <li><a href="index.html"><img src="img/logo.png" /></a></li>
+                </div>
+            <div id="rodape">
+                <div id="info">
+                    <ul>
+                        <li><a href="Quem Somos.html">Quem somos</a></li>
+                        <li><a href="Fale Conosco.html">Fale conosco</a></li>
+                        <li><a href="Trabalhe Conosco.html">Trabalhe conosco</a></li>                                        
+                        <li><a href="">SportsStyle@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>   
+
+<aside>
+    <div class="cart--area">
+
+      <div class="menu-closer">❌</div>
+      <h1>Seus Itens</h1>
+      <div class="cart"></div>
+
+      <div class="cart--details">
+        <div class="cart-value subtotal">
+          <span>Subtotal</span>
+          <span class="cart-value-subtotal">R$ --</span>
+        </div>
+        <div class="cart-value desconto">
+          <span>Desconto (-10%)</span>
+          <span class="cart-value-desconto">R$ --</span>
+        </div>
+        <div class="cart-value total big">
+          <span>Total</span>
+          <span class="cart-value-total">R$ --</span>
+        </div>
+        <div class="cart--finalizar">Finalizar a compra</div>
+      </div>
+      <!--cart--details-->
+
+    </div>
+    <!--cart--area-->
+  </aside>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/modelsList.js"></script>
+  <script type="text/javascript" src="js/modal.js"></script>
+  <script type="text/javascript" src="js/Cart.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

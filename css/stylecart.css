@@ -1,0 +1,594 @@
+/* Produtos e Carrinho */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hepta Slab", Helvetica, Arial;
+  font-size: 15px;
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.models {
+  display: none;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 60px;
+  background-color: #000;
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+main span {
+  color: #388bc5;
+}
+.menu-openner {
+  margin-right: 15px;
+  font-size: 26px;
+  background-color: #bebebe;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.menu-openner span {
+  margin-right: 10px;
+}
+.menu-closer {
+  width: 32px;
+  height: 32px;
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+aside {
+  background-color: #696868;
+  width: 0vw;
+  transition: all ease 0.2s;
+  overflow-x: hidden;
+}
+aside.show {
+  width: 30vw;
+}
+.cart--area {
+  padding: 20px;
+}
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.models-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.models-item {
+  text-align: center;
+  max-width: 220px;
+  margin: 0 auto 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 7px 7px 13px #dedede;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.models-item a {
+  text-decoration: none;
+}
+.models-item--img {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+.models-item--img img {
+  width: 100%;
+  height: auto;
+}
+.models-item--add {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #388bc5;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: -25px;
+  transition: all ease 0.2s;
+}
+.models-item a:hover .models-item--add {
+  background-color: #244c88;
+}
+.models-item--price {
+  font-size: 15px;
+  color: #333;
+  margin-top: 5px;
+}
+.models-item--name {
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 5px;
+}
+.models-item--desc {
+  font-size: 11px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/** Modal **/
+
+.models-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  justify-content: center;
+  align-items: center;
+
+  display: none;
+  transition: all 0.5s ease;
+}
+
+.models-modal-content {
+  width: 900px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #999;
+  display: flex;
+  margin: 20px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.models-modal-img {
+  height: 350px;
+  width: 350px;
+  margin: 0 20px;
+}
+
+.models-info {
+  flex: 1;
+  font-family: "Hepta Slab", Helvetica, Arial;
+  padding-bottom: 50px;
+  margin-left: 20px;
+}
+.models-info h1 {
+  margin-top: 50px;
+}
+.models-info .models-info--desc {
+  font-size: 15px;
+  color: #999;
+  margin-top: 10px;
+  font-family: "Lato", Helvetica, Arial;
+}
+.models-info--sector {
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.models-info--sizes {
+  display: inline-flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.models-info--size {
+  padding: 10px 15px;
+  color: #000;
+  background-color: #eee;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.models-info--size:hover {
+  background-color: #ccc;
+}
+.models-info--size.selected {
+  background-color: #399ade;
+  color: #fff;
+}
+.models-info--size.selected span {
+  color: #d6d6d6;
+}
+.models-info--size span {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+}
+.models-info--price {
+  display: flex;
+  align-items: center;
+}
+.models-info--actualPrice {
+  font-size: 28px;
+  margin-right: 30px;
+}
+.models-info--qtarea {
+  display: inline-flex;
+  background-color: #eee;
+  border-radius: 10px;
+  height: 30px;
+}
+.models-info--qtarea button {
+  border: 0;
+  background-color: transparent;
+  font-size: 17px;
+  outline: 0;
+  cursor: pointer;
+  padding: 0px 10px;
+  color: #333;
+}
+.models-info--qt {
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 5px;
+  color: #000;
+}
+.models-info--addButton {
+  margin-top: 30px;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: #48d05f;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.models-info--addButton:hover {
+  background-color: #32a345;
+}
+.models-info--cancelButton {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #e92929;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  transition: all ease 0.4s;
+}
+.models-info--cancelMobileButton:hover,
+.models-info--cancelButton:hover {
+  opacity: 0.9;
+}
+.models-info--cancelMobileButton {
+  display: none;
+
+  text-align: center;
+  cursor: pointer;
+  background-color: #e92929;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: all ease 0.4s;
+}
+.cart {
+  margin-bottom: 20px;
+}
+.cart--item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.cart--item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.cart--item-nome {
+  flex: 1;
+}
+.cart--item--qtarea {
+  display: inline-flex;
+  background-color: #eee;
+  border-radius: 10px;
+  height: 30px;
+}
+.cart--item--qtarea button {
+  border: 0;
+  background-color: transparent;
+  font-size: 17px;
+  outline: 0;
+  cursor: pointer;
+  padding: 0px 10px;
+  color: #000;
+}
+.cart--item--qt {
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 5px;
+  color: #000;
+}
+.cart-value {
+  padding: 15px 0;
+  border-top: 1px solid #000;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.cart-value span:first-child {
+  font-weight: bold;
+}
+.cart-value.big {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+.cart--finalizar {
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: #48d05f;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  border: 2px solid #63f77c;
+  transition: all ease 0.2s;
+}
+.cart--finalizar:hover {
+  background-color: #35af4a;
+}
+
+@media (max-width: 1000px) {
+  .models-area {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 840px) {
+  body {
+    flex-direction: column;
+  }
+  .models-area {
+    display: block;
+  }
+  .models-item {
+    max-width: 100%;
+  }
+  header {
+    display: flex;
+  }
+  main {
+    padding-top: 60px;
+  }
+
+  aside {
+    width: auto;
+    position: fixed;
+    left: 100vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease 0.2s;
+  }
+  aside.show {
+    width: auto;
+  }
+  .cart--area {
+    width: 100vw;
+  }
+
+  .menu-closer {
+    display: block;
+  }
+
+  .models-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+  }
+
+  .models-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .models-modal-img {
+    width: 300px;
+    margin: auto;
+    height: 300px;
+  }
+
+  .models-info h1 {
+    margin-top: 20px;
+  }
+
+  .models-info--qtarea {
+    height: 60px;
+  }
+  .models-info--qtarea button {
+    font-size: 25px;
+    padding: 0px 25px;
+  }
+  .models-info--qt {
+    line-height: 60px;
+    font-size: 20px;
+  }
+  .models-info--addButton {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  .models-info--cancelButton {
+    display: none;
+  }
+
+  .models-info--cancelMobileButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    display: inline-block;
+    font-weight: bold;
+  }
+}
+
+/* rodapé e cabeçalho */
+
+#rod_container {
+    background-color: #000;
+    width: 100%;
+    height: 200px;
+}
+#rod_logo {
+    float: left;
+    margin-left: 50px;
+    max-width: 10px;
+    padding-top: 25px;
+}
+
+#info {
+    color: #fff;
+    font-size: 20px;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+#info ul li, #contato_rod {
+    margin-left: 72%;
+    list-style: none;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#info ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 5px;
+}
+
+#info ul li:hover {
+    background-color: dimgray;
+    width: 22%;
+}
+
+#header-1{
+  background-color: black;
+  width: 100%;
+  height: 200px;
+}
+
+#cadastrar_logar {
+  left: 15px;
+  top: 1px;
+  bottom: 7px;
+  text-align: center;
+  font-size: 16px;
+  list-style: none;
+  position: absolute;
+  width: 20%;
+  height: 32px;
+  display: flex;
+  
+}
+
+#cadastrar_logar li {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  float: right;
+  margin-left: 5px;
+  padding-top: 8px;
+  text-decoration: none;
+}
+
+#logo {
+  float: left;
+  padding-top: 10px;
+}
+
+#menu {
+  text-align: center;
+  padding-top: 35px;
+  margin: 50px;
+  
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu ul li:hover {
+  background-color:dimgray;
+  width: 17%;
+}
+
+#menu ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  left: 27%;
+  display: none;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+#menu ul li ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#menu ul li:hover > ul, ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+ 
+}
+
+#menu ul li ul li {
+  clear: both;
+  width: 80%;
+} 
+
+#marca_topo {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  padding-top: 35px;
+  font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
