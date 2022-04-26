@@ -109,7 +109,7 @@ main h1 {
   color: #fff;
   font-size: 22px;
   cursor: pointer;
-  margin-top: -25px;
+  margin-top: 50px;
   transition: all ease 0.2s;
 }
 .models-item a:hover .models-item--add {
