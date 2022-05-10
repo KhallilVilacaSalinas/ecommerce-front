@@ -523,7 +523,8 @@ main h1 {
 
 #logo {
   float: left;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 #menu {
