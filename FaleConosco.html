@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/fale_form.css" midia="screen">
+        <script src="form_fale.js"></script>
+    <title>EletronicShop - Fale Conosco</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Fale Conosco</h1>
+        <p id="subtitulo">Para enviar sua solicitação, duvida, sugestão ou elogios, <br>
+            por favor, preencha os campos abaixo:</p>
+        </div>
+        
+        <form> <br>
+            <fieldset class="grupo">
+                <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="texto" id="nameid" name="nome" placeholder="Nome" requisited>
+            </div>
+            
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="texto" style="width: 13em ;"nome" placeholder="Sobrenome" requisited>
+            </div>
+        </fieldset>
+        
+        <div class="campo">
+            <label for="E-mail"><strong>E-mail</strong></label>
+            <input type="email" style="width: 27em;" name="nome" placeholder="aaaaaaa@gmail.com" requisited>
+        </div>
+        
+        
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="telefone"><strong>Telefone Fixo</strong></label>
+                    <input type="text" name="nome" placeholder="0000-0000">
+                </div>
+
+                <div class="campo">
+                    <label for="telefone"><strong>Telefone Celular</strong></label>
+                    <input type="text" name="nome" placeholder="(11) 00000-0000" requisited>
+                </div>
+            </fieldset>
+            
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="Assunto"><strong>Assunto:</strong></label>
+                    <input type="text" name="nome" placeholder="Entrega de produto">
+                </div>
+                
+                <div class="campo">
+                    <label for="numero"><strong>Nº do Pedido</strong></label>
+                    <input type="text" name="nome" placeholder="00011100001">
+                </div>
+            </fieldset>
+            
+            <div class="campo">
+                <label for="Mensagem"><strong>Digite sua Mensagem</strong></label>
+                <textarea rows="7" style="width: 27em;" id="experencia" name="nome" placeholder="Digite aqui"></textarea>
+            </div>
+        </form>
+
+        <form method="post" action="index.html" onsubmit="return teste()">
+
+            <input id="botao" type="submit" value="enviar">
+            <script src="js/fale_form.js"></script>
+    </body>
+    </html>
