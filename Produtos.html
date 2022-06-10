@@ -22,7 +22,6 @@
     <!-- Adicionando Javascript -->
     <script>
       $.get("https://uni9api.herokuapp.com/").done(function (data) {
-        console.log(data.products[1].description);
         let div = document.querySelector('#negociacoesView')
             div.innerHTML = `
 
