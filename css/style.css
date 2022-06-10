@@ -151,7 +151,6 @@ button.slick-prev {
     width: 30px;
     height: 32px;
     background-color: transparent;
-    background-image: url("./img/seta.antes.png");
     position: absolute;
     z-index: 9;
     top: 50%;
@@ -164,7 +163,6 @@ button.slick-next {
     width: 30px;
     height: 32px;
     background-color: transparent;
-    background-image: url("./img/seta.depois.png");
     position: absolute;
     z-index: 9;
     top: 50%;

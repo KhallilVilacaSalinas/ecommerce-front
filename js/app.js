@@ -1,3 +1,4 @@
+
 const modelsArea = sel(".models-area");
 
 let cart = [];
