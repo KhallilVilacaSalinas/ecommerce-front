@@ -1,5 +1,4 @@
-
-#contato  {
+#contato {
     position: absolute;
     top: 15px;
     left: 40%;
@@ -7,7 +6,7 @@
     font-size: 20px;
     font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     list-style: none;
-    
+
 }
 
 #cadastrar_logar {
@@ -22,8 +21,8 @@
     width: 50vw;
     height: 32px;
     display: flex;
-  
-    
+
+
 }
 
 
@@ -47,7 +46,7 @@
 }
 
 
-#header-1{
+#header-1 {
     background-color: black;
     width: 100%;
     height: 200px;
@@ -62,13 +61,13 @@
 
 }
 
- /* Estilização do Menu*/
+/* Estilização do Menu*/
 
 #menu {
     text-align: center;
     padding-top: 35px;
     margin: 50px;
-    
+
 }
 
 #menu ul li {
@@ -84,7 +83,7 @@
 }
 
 #menu ul li:hover {
-    background-color:dimgray;
+    background-color: dimgray;
     width: 17%;
 }
 
@@ -108,17 +107,18 @@
 
 }
 
-#menu ul li:hover > ul, ul li ul:hover {
+#menu ul li:hover>ul,
+ul li ul:hover {
     visibility: visible;
     opacity: 1;
     display: block;
-   
+
 }
 
 #menu ul li ul li {
     clear: both;
     width: 80%;
-} 
+}
 
 #marca_topo {
     text-align: center;
@@ -131,13 +131,13 @@
     font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
- /* Estilização do Slider*/
+/* Estilização do Slider*/
 
 #slider-principal {
     margin: 0 auto;
     padding-top: 20px;
-    max-width: 100%; 
-    max-height: 100%; 
+    max-width: 100%;
+    max-height: 100%;
     padding-left: 0px;
 
 
@@ -169,7 +169,7 @@ button.slick-next {
     right: 0;
 }
 
-#produtos_destaques{
+#produtos_destaques {
     font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 50px;
     text-align: center;
@@ -181,11 +181,11 @@ button.slick-next {
 
 
 #cyber-monday {
-   margin-left: 35%;
-   display: block;
+    margin-left: 35%;
+    display: block;
 
-   
-   
+
+
 }
 
 
@@ -196,7 +196,7 @@ button.slick-next {
     width: auto;
     border: 8px solid black;
     border-radius: 10px;
-    
+
 
 }
 
@@ -209,15 +209,15 @@ button.slick-next {
 #blackfriday2 {
     margin-left: 20%;
 
- }
+}
 
- #sales-produtcs1 {
+#sales-produtcs1 {
     width: 600px;
     height: 350px;
     border: 8px solid black;
     border-radius: 10px;
-    
- }
+
+}
 
 
 #nike {
@@ -238,7 +238,7 @@ button.slick-next {
     margin-left: 50px;
     max-width: 10px;
     padding-top: 25px;
-    
+
 }
 
 #rod_container {
@@ -248,7 +248,7 @@ button.slick-next {
     border-radius: 10px;
 }
 
- /* Estilização do Rodapé*/
+/* Estilização do rodapé*/
 
 #info {
     color: #fff;
@@ -257,11 +257,12 @@ button.slick-next {
     padding-top: 15px;
 }
 
-#info ul li, #contato_rod {
+#info ul li,
+#contato_rod {
     margin-left: 72%;
     list-style: none;
     font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+
 }
 
 #info ul li a {
@@ -276,7 +277,7 @@ button.slick-next {
     width: 22%;
 }
 
- /* Estilização do Fale Conosco*/
+/* Estilização do Fale Conosco*/
 
 #conteudo {
     font-size: 18px;
@@ -286,10 +287,11 @@ button.slick-next {
     color: #fff;
 }
 
- /* Estilização do Fale Conosco e Trabalhe Conosco*/
+/* Estilização do Fale Conosco e Trabalhe Conosco*/
 
-#trabalhe, #check {
-    background-color:#000;
+#trabalhe,
+#check {
+    background-color: #000;
     font-size: 18px;
     max-width: 94%;
     color: #fff;
@@ -315,17 +317,17 @@ button.slick-next {
     border: 1px solid;
     color: #fff;
     font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
+
 }
 
 #botton {
     padding-bottom: 10px;
-    margin-left: 26px; 
+    margin-left: 26px;
 }
 
-#botao:hover{
+#botao:hover {
     background: dimgray;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0, 0.2);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
 
@@ -334,13 +336,13 @@ textarea {
     height: 20x;
     padding: 20px;
     font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+
 }
 
 
-#titulo{
-    color:#000;
-    margin-left: 25px; 
+#titulo {
+    color: #000;
+    margin-left: 25px;
     /*border: 2px solid #000;*/
     max-width: 96%;
     text-align: center;
@@ -349,8 +351,8 @@ textarea {
 
 
 #subtitulo {
-    color:#000;
-    margin-left: 25px; 
+    color: #000;
+    margin-left: 25px;
     /*border: 2px solid #000;*/
     max-width: 96%;
     font-size: 15px;
@@ -360,7 +362,7 @@ textarea {
 
 /* Estilização do Quem Somos*/
 
-#text{
+#text {
     padding-top: 20px;
     color: black;
     font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -368,12 +370,14 @@ textarea {
     text-align: center;
     border-radius: 10px;
 }
+
 /* iNÍCIO DA ESTILIZANDO MISSÃO, VISÃO E VALORES */
 
-.box{
+.box {
     width: auto;
     height: auto;
-    border: 10px solid black;/* rgba(255, 255, 255, 0.174); */
+    border: 10px solid black;
+    /* rgba(255, 255, 255, 0.174); */
     background-color: rgba(51, 51, 51, 0.4);
     margin: 0 auto 20px auto;
     overflow: hidden;
@@ -381,32 +385,32 @@ textarea {
     color: black;
 }
 
-.image_0{
+.image_0 {
     padding-bottom: 30px;
 }
 
-.paragrafo_0{
- padding: 20px;
- /* color: rgba(255, 255, 255, 0.952); */
+.paragrafo_0 {
+    padding: 20px;
+    /* color: rgba(255, 255, 255, 0.952); */
 }
 
 
-.image_1{
+.image_1 {
     padding-bottom: 30px;
 }
 
-.paragrafo_1{
-padding: 20px;
-/* color: rgba(255, 255, 255, 0.952); */
+.paragrafo_1 {
+    padding: 20px;
+    /* color: rgba(255, 255, 255, 0.952); */
 }
 
-.image_2{
+.image_2 {
     padding-bottom: 30px;
 }
 
-.paragrafo_2{
-padding: 20px;
-/* color: rgba(255, 255, 255, 0.952); */
+.paragrafo_2 {
+    padding: 20px;
+    /* color: rgba(255, 255, 255, 0.952); */
 }
 
 /* FIM DA ESTILIZANDO MISSÃO, VISÃO E VALORES */
@@ -417,7 +421,7 @@ padding: 20px;
     margin-left: 28px;
 }
 
-#h1_title{
+#h1_title {
     text-align: center;
     font-size: 40px;
     font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -425,9 +429,9 @@ padding: 20px;
 }
 
 /* Estilização do Cadastrar*/
-  
+
 .main-cadastro {
-    background-color:#000;
+    background-color: #000;
     color: #fff;
     font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 17px;
@@ -486,24 +490,25 @@ input[type="submit"] {
 
 #agreement {
     margin-right: 5px;
-  }
+}
 
-  
-  #agreement, #agreement-label {
+
+#agreement,
+#agreement-label {
     display: inline-block;
     width: auto;
-  }
-  
-  .error-validation {
+}
+
+.error-validation {
     color: #ff1a1a;
     position: absolute;
     top: 57px;
     font-size: 12px;
-  }
-  
-  .template {
+}
+
+.template {
     display: none;
-  }
+}
 
 .login {
     height: 100vh;
@@ -511,12 +516,12 @@ input[type="submit"] {
     display: flex;
     justify-content: center;
     align-items: center;
-}    
+}
 
-.loginContainer{
+.loginContainer {
     min-height: 400px;
     width: 300px;
-    background-color:#FFF;
+    background-color: #FFF;
     box-sizing: border-box;
     padding: 32px;
     border-radius: 8px;
@@ -530,7 +535,7 @@ input[type="submit"] {
     color: #303030;
 }
 
-.login-form{
+.login-form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -538,7 +543,7 @@ input[type="submit"] {
     justify-content: center;
 }
 
-.loginInput{
+.loginInput {
     height: 48px;
     width: 100%;
     box-sizing: border-box;
@@ -547,7 +552,7 @@ input[type="submit"] {
     outline: none;
 }
 
-.loginInputBorder{
+.loginInputBorder {
     height: 1px;
     width: 100%;
     margin-top: -45px;
@@ -556,7 +561,7 @@ input[type="submit"] {
     transition: .3s ease-in-out;
 }
 
-.loginInputBorder::after{
+.loginInputBorder::after {
     content: '';
     display: block;
     height: 1px;
@@ -566,15 +571,15 @@ input[type="submit"] {
     transition: .3s ease-in-out;
 }
 
-.loginInput:focus + .loginInputBorder::after{
-width: 100%;
+.loginInput:focus+.loginInputBorder::after {
+    width: 100%;
 }
 
 .loginInputBorder.error::after {
     background: red
 }
 
-.loginSubmit{
+.loginSubmit {
     height: 40px;
     width: 100%;
     outline: none;
@@ -590,190 +595,197 @@ width: 100%;
     transition: .5s ease-in-out;
 }
 
-.loginSubmit:disabled{
+.loginSubmit:disabled {
     background: #cfcfcf;
     cursor: not-allowed;
 }
 
-.loginSubmit:hover{
-    background-position: right ;
+.loginSubmit:hover {
+    background-position: right;
 }
 
 .loginSubmit.error {
-    background: red; 
+    background: red;
 }
 
 .loginSubmit.sucess {
-    background: rgb(18, 151, 107); 
+    background: rgb(18, 151, 107);
 }
-.loginCad{
+
+.loginCad {
     font-size: 14px;
     color: #929292;
     text-decoration: none;
 }
 
 
-  /* Responsividade  */
+/* Responsividade  */
 
-    @media screen and (max-width:1200px){
-        
-        #cadastrar_logar {
-            left: 73.5%;
-        }
+@media screen and (max-width:1200px) {
 
-        #missao{
-            max-width: 700px;
-        }
-        #blackfriday img {
-            max-width: 700px;
-            float: none;
-            text-align: center;
-            display: center;
-            margin-right: 30px;
-            background-position: center;
-            
-         }
-        
-         #blackfriday2 img {
-            max-width: 700px;
-            float: none;
-            text-align: center;
-            display: center;
-            margin-right: 30px;
-            background-position: center;
-         }
-    
+    #cadastrar_logar {
+        left: 73.5%;
     }
 
-    @media screen and (max-width:940px) {
-        div .main-cadastro{
-            margin: auto;
-            width: 400;
-            height: 300;
-            margin: center;
-        }
-        div .main-cadastro{
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        #cadastrar_logar {
-            left: 66%;
-        }
-        
-        #missao{
-            max-width: 700px;
-        }
-
-        #blackfriday img {
-            max-width: 500px;
-            float: none;
-            text-align: center;
-            display: center;
-            margin-right: 30px;
-            background-position: center;
-            
-         }
-         #menu-openner{
-            width: 8px;
-        }
-        
-         #blackfriday2 img {
-            max-width: 500px;
-            float: none;
-            text-align: center;
-            display: center;
-            margin-right: 30px;
-            background-position: center;
-         }
-    
+    #missao {
+        max-width: 700px;
     }
 
-    @media screen and (max-width:865px) {
-        #menu-openner{
-            width: 8px;
-        }
-
-        div .main-cadastro{
-            margin: auto;
-            width: 600;
-            height: 300;
-            margin: center;
-        }
-        div .main-cadastro{
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        
-        #cadastrar_logar {
-            left: 63%;
-        }
-        
-
-        #missao{
-            max-width: 500px;
-        }
-
-        #blackfriday img {
-            max-width: 500px;
-            float: none;
-            text-align: center;
-            display: center;
-            margin-right: 30px;
-            background-position: center;
-            
-         }
-        
-         #blackfriday2 img {
-            max-width: 500px;
-            float: none;
-            text-align: center;
-            display: center;
-            margin-right: 30px;
-            background-position: center;
-         }
-         #menu-openner{
-            width: 8px;
-        }
-    }
-    
- @media screen and (max-width:750px) {
-    nav li{
-        max-width: 600px;
-        float: none;
-       }
-
-       #cadastrar_logar {
-        left: 57%;
-    }
-
-       #missao{
-        max-width: 550px;
-    }
-
-       #blackfriday img {
-        max-width: 400px;
+    #blackfriday img {
+        max-width: 700px;
         float: none;
         text-align: center;
         display: center;
         margin-right: 30px;
         background-position: center;
-        
-     }
-    
-     #blackfriday2 img {
-        max-width: 400px;
+
+    }
+
+    #blackfriday2 img {
+        max-width: 700px;
         float: none;
         text-align: center;
         display: center;
         margin-right: 30px;
         background-position: center;
-     }
-     #menu-openner{
+    }
+
+}
+
+@media screen and (max-width:940px) {
+    div .main-cadastro {
+        margin: auto;
+        width: 400;
+        height: 300;
+        margin: center;
+    }
+
+    div .main-cadastro {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #cadastrar_logar {
+        left: 66%;
+    }
+
+    #missao {
+        max-width: 700px;
+    }
+
+    #blackfriday img {
+        max-width: 500px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        background-position: center;
+
+    }
+
+    #menu-openner {
         width: 8px;
     }
 
-     footer div ul{
+    #blackfriday2 img {
+        max-width: 500px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        background-position: center;
+    }
+
+}
+
+@media screen and (max-width:865px) {
+    #menu-openner {
+        width: 8px;
+    }
+
+    div .main-cadastro {
+        margin: auto;
+        width: 600;
+        height: 300;
+        margin: center;
+    }
+
+    div .main-cadastro {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #cadastrar_logar {
+        left: 63%;
+    }
+
+
+    #missao {
+        max-width: 500px;
+    }
+
+    #blackfriday img {
+        max-width: 500px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        background-position: center;
+
+    }
+
+    #blackfriday2 img {
+        max-width: 500px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        background-position: center;
+    }
+
+    #menu-openner {
+        width: 8px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    nav li {
+        max-width: 600px;
+        float: none;
+    }
+
+    #cadastrar_logar {
+        left: 57%;
+    }
+
+    #missao {
+        max-width: 550px;
+    }
+
+    #blackfriday img {
+        max-width: 400px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        background-position: center;
+
+    }
+
+    #blackfriday2 img {
+        max-width: 400px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        background-position: center;
+    }
+
+    #menu-openner {
+        width: 8px;
+    }
+
+    footer div ul {
         max-width: 600px;
         margin: 0%;
         padding: 0%;
@@ -782,10 +794,10 @@ width: 100%;
         font-size: 90%;
     }
 
-   }
- 
+}
+
 @media screen and (max-width: 600px) {
-    #menu-openner{
+    #menu-openner {
         width: 8px;
     }
 
@@ -793,7 +805,7 @@ width: 100%;
         left: 46%;
     }
 
-    #missao{
+    #missao {
         max-width: 500px;
     }
 
@@ -804,103 +816,110 @@ width: 100%;
         display: center;
         margin-right: 30px;
         background-position: center;
-        
-     }
-    
-     #blackfriday2 img {
+
+    }
+
+    #blackfriday2 img {
         max-width: 400px;
         float: none;
         text-align: center;
         display: center;
         margin-right: 30px;
         background-position: center;
-     }
+    }
 
 }
 
 @media screen and (max-width:540px) {
-    nav li{
-       max-width: 600px;
-       float: none;
-       text-align: center;
-       display: center;
-       margin-right: 30px;
-   }
-   #menu-openner{
-    width: 8px;
-}
+    nav li {
+        max-width: 600px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+    }
 
-   #cadastrar_logar {
-    left: 40%;
-}
+    #menu-openner {
+        width: 8px;
+    }
 
-   #missao{
-    max-width: 465px;
-   }
+    #cadastrar_logar {
+        left: 40%;
+    }
 
-   #blackfriday img {
-    max-width: 370px;
-    float: none;
-    text-align: center;
-    display: center;
-    margin-right: 30px;
-    position: center;
-    
- }
+    #missao {
+        max-width: 465px;
+    }
 
- #blackfriday2 img {
-    max-width: 370px;
-    float: none;
-    text-align: center;
-    display: center;
-    margin-right: 30px;
-    position: center;
- }
+    #blackfriday img {
+        max-width: 370px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        position: center;
 
- 
+    }
 
-   footer div ul{
-       max-width: 600px;
-       margin: 0%;
-       padding: 0%;
-       display: center;
-       margin-right: 20%;
-       font-size: 75%;
-   }
-    fieldset div label{
+    #blackfriday2 img {
+        max-width: 370px;
+        float: none;
+        text-align: center;
+        display: center;
+        margin-right: 30px;
+        position: center;
+    }
+
+
+
+    footer div ul {
+        max-width: 600px;
+        margin: 0%;
+        padding: 0%;
+        display: center;
+        margin-right: 20%;
+        font-size: 75%;
+    }
+
+    fieldset div label {
         width: auto;
     }
-    form div fieldset label{
-       width: auto;
+
+    form div fieldset label {
+        width: auto;
     }
-    div .main-cadastro{
-       margin: 10px;
-       max-width: 800px;
-       width: auto;
-       height: 500px;
-   }
-   div p titulo-card{
-       font-size: 50%;
-       position: absolute;
-       margin: none;
-       display: flex;
-   }
-   div .campo1 label input{
-       width: 800px;
-   }
+
+    div .main-cadastro {
+        margin: 10px;
+        max-width: 800px;
+        width: auto;
+        height: 500px;
+    }
+
+    div p titulo-card {
+        font-size: 50%;
+        position: absolute;
+        margin: none;
+        display: flex;
+    }
+
+    div .campo1 label input {
+        width: 800px;
+    }
 }
 
 @media screen and (max-width:500px) {
     #cadastrar_logar {
         left: 35%;
     }
-    #menu-openner{
+
+    #menu-openner {
         width: 8px;
     }
 }
 
 @media screen and (max-width:435px) {
-    nav li{
+    nav li {
         max-width: 600px;
         float: none;
         text-align: left;
@@ -908,13 +927,13 @@ width: 100%;
         margin-right: 30px;
         font-size: 10%;
     }
-    footer div ul{
+
+    footer div ul {
         max-width: 800px;
         margin: 0%;
-        padding: 0%;    
+        padding: 0%;
         display: center;
         margin-right: 20%;
         font-size: 75%;
     }
 }
-

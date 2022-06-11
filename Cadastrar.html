@@ -1,104 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-        <title>Sports Style - Cadastro</title>
-        <style>
-            body {
-                background-color: #bebebe;
-            }
-        </style>
-    
-    </head>
 
-    <body>
-            <main>
-                <div id="header-1">
-                    <div id="cadastrar_logar">
-                        <li><a href="Login.html"><img src="img/login.png" /></a></li>
-                    </div> 
-                    
-                    <div id="logo">
-                    <li><a href="index.html"><img src="img/logo.png" /></a></li>
-                </div>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <title>Sports Style - Cadastro</title>
+    <style>
+        body {
+            background-color: #bebebe;
+        }
+    </style>
 
-                <nav id="menu">
-                     <ul>
-                        <li><a href="index.html">Home Page</a></li>
-                        <li><a href="quemSomos.html">Que somos</a></li>
-                        <li><a href="Produtos.html">Produtos</a></li>
-                        <li><a href="faleConosco.html">Fale conosco</a></li>
-                        <li><a href="trabalheConosco.html">Trabalhe conosco</a></li>
-                     </ul>
+</head>
 
-                </nav>
-                     
-                </div>
+<body>
+    <main>
+        <div id="header-1">
+            <div id="cadastrar_logar">
+                <li><a href="Login.html"><img src="img/login.png" /></a></li>
+            </div>
 
-    <h1 id="titulo"> Cadastrar-se</h1 >
-
-<div class="main-cadastro">
-    <form class = "register" action = "">
-        <div  class = "campo1" >
-            <label  for = "email" > E-mail </label>
-            <input  type = "email" name = " email " id = " email " placeholder = " Digite seu e-mail " data-min-length = " 2 " data-email-validate autocomplete="off">
-          </div>
-          <div  class = "campo2" >
-              <label  for = " name " > Nome </label>
-              <input  type = " text " name = " name " id = " name " placeholder = " Digite seu nome " data-required  data-min-length = " 3 " data-max-length = " 16 " autocomplete="off" >
-          </div>
-          <div class = "campo3" >
-              <label  for = " lastname " > Sobrenome </label>
-              <input  type = " text " name = " lastname " id = " lastname " placeholder = " Digite seu sobrenome " data-required  data-only-letters autocomplete="off" >
-          </div>
-          <div class = "campo4">
-            <label  for = " lastname " > Senha </label >
-            <input  type = " password " name = " password " id = " password " placeholder = " Digite sua senha " data-password-validate  data-required autocomplete="off">
-          </div>
-          <div class = "campo5" >
-            <label  for = " passconfirmation " > Confirmação de senha </label >
-            <input  type = " password " name = " passconfirmation " id = " passwordconfirmation " placeholder = " Digite novamente sua senha " data-equal = " password " >
-          </div>
-          <div>
-            <input  type = " checkbox " name = " agreement " id = " agreement " >
-            <label para = " acordo " id =" acordo-label "> Eu li e Aceito OS <a  href =" # "> TERMOS de uso </a> </label>
-          </div>
-          
-    </form>
-   
-</div>
-<form method="post" action="index.html" onsubmit="return teste()">
-    <div id="botton"><input id="botao" type="submit" value="enviar"></div>
-    <script src="./js/form_trabb.js"></script>
-<footer>
-
-
-        <div id="rod_container">
-            <div id="rod_logo">
+            <div id="logo">
                 <li><a href="index.html"><img src="img/logo.png" /></a></li>
             </div>
-        <div id="rodape">
-            
-        <div id="info">
-            <ul>
-                <li><a href="quemSomos.html">Quem somos</a></li>
-                <li><a href="faleConosco.html">Fale conosco</a></li>
-                <li><a href="trabalheConosco.html">Trabalhe conosco</a></li>                                        
-                <li><a href="">contato@eletronicshop.com.br</a></li>
-            </ul>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="quemSomos.html">Que somos</a></li>
+                    <li><a href="Produtos.html">Produtos</a></li>
+                    <li><a href="faleConosco.html">Fale conosco</a></li>
+                    <li><a href="trabalheConosco.html">Trabalhe conosco</a></li>
+                </ul>
+
+            </nav>
+
         </div>
 
+        <h1 id="titulo"> Cadastrar-se</h1>
+
+        <div class="main-cadastro">
+            <form class="register" action="">
+                <div class="campo1">
+                    <label for="email"> E-mail </label>
+                    <input type="email" name=" email " id=" email " placeholder=" Digite seu e-mail "
+                        data-min-length=" 2 " data-email-validate autocomplete="off">
+                </div>
+                <div class="campo2">
+                    <label for=" name "> Nome </label>
+                    <input type=" text " name=" name " id=" name " placeholder=" Digite seu nome " data-required
+                        data-min-length=" 3 " data-max-length=" 16 " autocomplete="off">
+                </div>
+                <div class="campo3">
+                    <label for=" lastname "> Sobrenome </label>
+                    <input type=" text " name=" lastname " id=" lastname " placeholder=" Digite seu sobrenome "
+                        data-required data-only-letters autocomplete="off">
+                </div>
+                <div class="campo4">
+                    <label for=" lastname "> Senha </label>
+                    <input type=" password " name=" password " id=" password " placeholder=" Digite sua senha "
+                        data-password-validate data-required autocomplete="off">
+                </div>
+                <div class="campo5">
+                    <label for=" passconfirmation "> Confirmação de senha </label>
+                    <input type=" password " name=" passconfirmation " id=" passwordconfirmation "
+                        placeholder=" Digite novamente sua senha " data-equal=" password ">
+                </div>
+                <div>
+                    <input type=" checkbox " name=" agreement " id=" agreement ">
+                    <label para=" acordo " id=" acordo-label "> Eu li e Aceito OS <a href=" # "> TERMOS de uso </a>
+                    </label>
+                </div>
+
+            </form>
+
+        </div>
+        <form method="post" action="index.html" onsubmit="return teste()">
+            <div id="botton"><input id="botao" type="submit" value="enviar"></div>
+            <script src="./js/form_trabb.js"></script>
+            <footer>
 
 
-    </div>
-</div>
+                <div id="rod_container">
+                    <div id="rod_logo">
+                        <li><a href="index.html"><img src="img/logo.png" /></a></li>
+                    </div>
+                    <div id="rodape">
 
-</footer>
+                        <div id="info">
+                            <ul>
+                                <li><a href="quemSomos.html">Quem somos</a></li>
+                                <li><a href="faleConosco.html">Fale conosco</a></li>
+                                <li><a href="trabalheConosco.html">Trabalhe conosco</a></li>
+                                <li><a href="">contato@eletronicshop.com.br</a></li>
+                            </ul>
+                        </div>
 
-        <p class = " modelo de validação de erro "></p>
+
+
+                    </div>
+                </div>
+
+            </footer>
+
+            <p class=" modelo de validação de erro "></p>
 </body>
+
 </html>

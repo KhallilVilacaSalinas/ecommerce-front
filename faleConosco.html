@@ -1,39 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/fale_form.css" midia="screen">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/fale_form.css" midia="screen">
+    <!-- <link rel="stylesheet" type="text/css" href="css/form_trab.css" midia="screen"> -->
+
 
     <title>EletronicShop - Fale Conosco</title>
 </head>
+
 <body>
 
-    <div>
-        <h1 id="titulo">Fale Conosco</h1>
-        <p id="subtitulo">Para enviar sua solicitação, duvida, sugestão ou elogios, <br>
-            por favor, preencha os campos abaixo:</p>
+    <div id="header-1">
+        <div id="cadastrar_logar">
+            <li><a href="Login.html"><img src="img/login.png" /></a></li>
         </div>
-        
-        <form> <br>
+
+        <div id="logo">
+            <li><a href="index.html"><img src="img/logo.png" /></a></li>
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="quemSomos.html">Que somos</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="faleConosco.html">Fale conosco</a></li>
+                <li><a href="trabalheConosco.html">Trabalhe conosco</a></li>
+            </ul>
+
+        </nav>
+
+        <div id="form">
+            <h1 id="titulo">Fale Conosco</h1>
+            <p id="subtitulo">Para enviar sua solicitação, duvida, sugestão ou elogios, <br>
+                por favor, preencha os campos abaixo:</p>
+        </div>
+
+        <form id="form2"> <br>
             <fieldset class="grupo">
                 <div class="campo">
-                <label for="nome"><strong>Nome</strong></label>
-                <input type="texto" id="nameid" name="nome" placeholder="Nome" requisited>
-            </div>
-            
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="texto" id="nameid" name="nome" placeholder="Nome" requisited>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="texto" style="width: 13em ;" nome" placeholder="Sobrenome" requisited>
+                </div>
+            </fieldset>
+
             <div class="campo">
-                <label for="sobrenome"><strong>Sobrenome</strong></label>
-                <input type="texto" style="width: 13em ;"nome" placeholder="Sobrenome" requisited>
+                <label for="E-mail"><strong>E-mail</strong></label>
+                <input type="email" style="width: 27em;" name="nome" placeholder="aaaaaaa@gmail.com" requisited>
             </div>
-        </fieldset>
-        
-        <div class="campo">
-            <label for="E-mail"><strong>E-mail</strong></label>
-            <input type="email" style="width: 27em;" name="nome" placeholder="aaaaaaa@gmail.com" requisited>
-        </div>
-        
-        
+
+
             <fieldset class="grupo">
                 <div class="campo">
                     <label for="telefone"><strong>Telefone Fixo</strong></label>
@@ -45,28 +69,56 @@
                     <input type="text" name="nome" placeholder="(11) 00000-0000" requisited>
                 </div>
             </fieldset>
-            
+
             <fieldset class="grupo">
                 <div class="campo">
                     <label for="Assunto"><strong>Assunto:</strong></label>
                     <input type="text" name="nome" placeholder="Entrega de produto">
                 </div>
-                
+
                 <div class="campo">
                     <label for="numero" required><strong>Nº do Pedido</strong></label>
                     <input type="text" name="nome" placeholder="00011100001">
                 </div>
             </fieldset>
-            
+
             <div class="campo">
                 <label for="Mensagem"><strong>Digite sua Mensagem</strong></label>
-                <textarea rows="7" style="width: 27em;" id="experencia" name="nome" placeholder="Digite aqui"></textarea>
+                <textarea rows="7" style="width: 27em;" id="experencia" name="nome"
+                    placeholder="Digite aqui"></textarea>
             </div>
         </form>
 
-        <form method="post" action="index.html" onsubmit="return teste()">
-            <input id="botao" type="submit" value="enviar">
-    </main>
-            <script src="js/fale_form.js"></script>
-    </body>
-    </html>
+        <div>
+            <form method="post" action="index.html" onsubmit="return teste()">
+                <input id="botao" type="submit" value="enviar">
+        </div>
+
+
+
+        <footer id="rodape">
+
+            <div id="rod_container">
+                <div id="rod_logo">
+                    <li><a href="index.html"><img src="img/logo.png" /></a></li>
+                </div>
+                <div>
+
+                    <div id="info">
+                        <ul>
+                            <li><a href="quemSomos.html">Quem somos</a></li>
+                            <li><a href="faleConosco.html">Fale conosco</a></li>
+                            <li><a href="trabalheConosco.html">Trabalhe conosco</a></li>
+                            <li><a href="">contato@eletronicshop.com.br</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        </main>
+        <script src="js/fale_form.js"></script>
+</body>
+
+</html>

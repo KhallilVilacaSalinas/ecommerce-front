@@ -1,92 +1,292 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-#titulo{
+#cadastrar_logar {
+    position: fixed;
+    left: 5px;
+    top: 1px;
+    bottom: 7px;
+    text-align: center;
+    font-size: 16px;
+    list-style: none;
+    position: absolute;
+    width: 50vw;
+    height: 32px;
+    display: flex;
+
+
+}
+
+
+#cadastrar_logar li {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    float: right;
+    margin-left: 5px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    padding-top: 25px;
+
+
+
+
+}
+
+
+#header-1 {
+    margin-left: 1%;
+    background-color: black;
+    width: 98%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#logo {
+    float: left;
+    margin-left: 50px;
+    max-width: 10px;
+    padding-top: 25px;
+
+}
+
+/* Estilização do Menu*/
+
+#menu {
+    text-align: center;
+    padding-top: 35px;
+    margin: 50px;
+
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu ul li:hover {
+    background-color: dimgray;
+    width: 17%;
+}
+
+#menu ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    left: 27%;
+    display: none;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+#menu ul li ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#menu ul li:hover>ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+
+}
+
+#menu ul li ul li {
+    clear: both;
+    width: 80%;
+}
+
+#marca_topo {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    padding-top: 35px;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*  */
+#titulo {
     font-family: sans-serif;
     color: #000000;
     margin-left: 5%
 }
 
-#subtitulo{
+#subtitulo {
     font-family: sans-serif;
     color: #000000;
-    margin-left: 9%
+    margin-left: 29%
 }
 
-fieldset{
+fieldset {
     border: 0;
 }
 
-body{
-    background-color: #b3b3b3;
-    font-family:sans-serif;
-    font-size: 1em;
-    color: #000000;
-    margin-left: 36%;
-    margin-top: 2%;
-    justify-content:center;
-   
+#form {
+    margin-top: 12%;
+    margin-left: 20%;
 }
 
-input, select, textarea, button{
+#form h1 {
+    margin-left: 25%;
+}
+
+#from p {
+    margin-left: 80%;
+}
+
+#form2 {
+    margin-left: 36%;
+}
+
+body {
+    background-color: #b3b3b3;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #000000;
+    /* margin-left: 20%;
+    margin-top: 2%; */
+    justify-content: center;
+
+}
+
+input,
+select,
+textarea,
+button {
     border-radius: 5px;
 }
 
-.campo{
+.campo {
     margin-bottom: 1em;
 }
 
-.campo label{
+.campo label {
     margin-bottom: 0.2em;
     color: #555555;
     display: block;
 }
 
-fieldset.grupo .campo{
+fieldset.grupo .campo {
     float: left;
-    margin-right:1em;
+    margin-right: 1em;
 }
 
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
-    padding:0.2em;
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
     border: 1px solid #000000;
-    box-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
-    display:block;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
 }
 
-.campo select option{
-    padding-right:1em;
+.campo select option {
+    padding-right: 1em;
 }
 
-.campo input:focus, .campo select:focus, .campo textarea:focus{
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
     background: #7e7e7e;
 }
 
-.botao{
-    font-size:1.2em;
+.botao {
+    font-size: 1.2em;
     background: #555555;
-    border:0;
+    border: 0;
     margin-bottom: 1em;
-    color: #000000; ;
-    padding:0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0, 0.5);
-    position:absolute;
-    top:90%;
-    left:50%;
-    margin-right:-50%;
+    color: #000000;
+    ;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-top: 3%;
+    left: 50%;
+    margin-right: -50%;
     margin-bottom: 25%;
     transform: translate(-50%, -50%);
 }
 
-.botao:hover{
+.botao:hover {
     background: #56a4d1;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0, 0.2);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
 
-#check{
-    display:inline-block
+#check {
+    display: inline-block
+}
+
+
+/* Rodape */
+
+
+#rod_container {
+    background-color: #000;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#rod_logo {
+    float: left;
+    margin-left: 50px;
+    max-width: 10px;
+    padding-top: 25px;
+
+}
+
+#rodape {
+    margin-top: 8%;
+}
+
+#info {
+    color: #fff;
+    font-size: 20px;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+#info ul li,
+#contato_rod {
+    margin-left: 72%;
+    list-style: none;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#info ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 5px;
+}
+
+#info ul li:hover {
+    background-color: dimgray;
+    width: 22%;
 }

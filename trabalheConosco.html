@@ -1,116 +1,162 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/form_trab.css" midia="screen">
-    
+
     <title>EletronicShop - Trabalhe Conosco</title>
-    
+
 </head>
+
 <body>
-    <div>
-        <h1 id="titulo">Trabalhe Conosco</h1>
-        <p id="subtitulo">Complete suas Informações</p>
-        <br>
-    </div>
-    
-    <form>
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="nome"><strong>Nome completo</strong></label>
-                <input type="text" id="nameid"  placeholder="Nome" name="name " required>
-            </div>
-            
-            <div class="campo">
-                
-                <label><strong>Nascimento</strong></label>
-                <input type="date" style="width: 12.7em"name" placeholder="Nome" required>
-            </div>
-        </fieldset>
-        
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="telefone fixo"><strong>Telefone Fixo</strong></label>
-                <input type="text" name="name" placeholder="0000-0000" >
-            </div>
-            
-            <div class="campo">
-                <label for="telefone celular"><strong>Telefone Celular</strong></label>
-                <input type="text" name="name" placeholder="(11) 00000-0000" required>
-            </div>
-        </fieldset>
-        
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="email"><strong>E-mail</strong></label>
-                <input type="email" name="name" placeholder="aaaaa@gmail.com" required>
-            </div>
-            
-            <div class="campo">
-                <label for="email"><strong>Endereço</strong></label>
-                <input type="text" name="name" placeholder="Rua Florentino - 289 / SP " required>
-            </div>
-        </fieldset>
-        
-        <div id="check" >
-            <label><strong>Grau de Instrução:</strong></label>
-            <br>
-            <label>
-                <input type="checkbox" name="escolaridade" value="fundamental">fundamental
-        </label>
-        <label>
-            <input type="checkbox" name="escolaridade" placeholder value="medio">Médio
-        </label>
-            <label>
-                <input type="checkbox" name="escolaridade" placeholder value="tecnico">Técnico
-            </label>
-            <label>
-                <input type="checkbox" name="escolaridade" value="Tecnólogo">Tecnólogo
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" name="escolaridade" value="superio">Superior
-            </label>
-            <label>
-                <input type="checkbox" name="escolaridade" value="doutorado">Doutorado
-            </label>
-            <label>
-                <input type="checkbox" name="escolaridade" value="mestrado">Mestrado
-            </label>
+
+    <div id="header-1">
+        <div id="cadastrar_logar">
+            <li><a href="Login.html"><img src="img/login.png" /></a></li>
         </div>
-        
-        <fieldset class="grupo">
-            <div class="campo">
-                <br>
-                <label><strong>Formação</strong></label>
-                <input type="text" name="name" placeholder="Formação">
-            </div>
-            
-            <div class="campo">
-                <br>
-                <label><strong>Instituição de ensino</strong> </label>
-                <input type="text" name="name" placeholder="Colégio Augusto Maia">
-            </div>
-        </fieldset>
-        
-        <div class="campo"> 
-            <label><strong>Conclusão</strong></label> 
-            <input type="date" style="width: 12.7em;" name="Conclusão" id="Conclusão" >
+
+        <div id="logo">
+            <li><a href="index.html"><img src="img/logo.png" /></a></li>
         </div>
-        
-        <div class="campo">
-            <label ><strong>Conte um pouco da sua experiência</strong></label>
-        <textarea rows="4" style="width: 27em" id="experiencia" nome="experencia"></textarea>
-    </div>
-    
-</form>
-    
-<form method="post" action="index.html" onsubmit="return teste()">
-    
-    <input class="botao" type="submit" value="enviar">
-    
-    <script src="js/form_trab.js"></script>
-    
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="quemSomos.html">Que somos</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="faleConosco.html">Fale conosco</a></li>
+                <li><a href="trabalheConosco.html">Trabalhe conosco</a></li>
+            </ul>
+
+        </nav>
+
+        <div id="form">
+            <h1 id="titulo">Trabalhe Conosco</h1>
+            <p id="subtitulo">Complete suas Informações</p>
+            <br>
+        </div>
+
+        <form id="form2">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome completo</strong></label>
+                    <input type="text" id="nameid" placeholder="Nome" name="name " required>
+                </div>
+
+                <div class="campo">
+
+                    <label><strong>Nascimento</strong></label>
+                    <input type="date" style="width: 12.7em" name" placeholder="Nome" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="telefone fixo"><strong>Telefone Fixo</strong></label>
+                    <input type="text" name="name" placeholder="0000-0000">
+                </div>
+
+                <div class="campo">
+                    <label for="telefone celular"><strong>Telefone Celular</strong></label>
+                    <input type="text" name="name" placeholder="(11) 00000-0000" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="email"><strong>E-mail</strong></label>
+                    <input type="email" name="name" placeholder="aaaaa@gmail.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email"><strong>Endereço</strong></label>
+                    <input type="text" name="name" placeholder="Rua Florentino - 289 / SP " required>
+                </div>
+            </fieldset>
+
+            <div id="check">
+                <label><strong>Grau de Instrução:</strong></label>
+                <br>
+                <label>
+                    <input type="checkbox" name="escolaridade" value="fundamental">fundamental
+                </label>
+                <label>
+                    <input type="checkbox" name="escolaridade" placeholder value="medio">Médio
+                </label>
+                <label>
+                    <input type="checkbox" name="escolaridade" placeholder value="tecnico">Técnico
+                </label>
+                <label>
+                    <input type="checkbox" name="escolaridade" value="Tecnólogo">Tecnólogo
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="escolaridade" value="superio">Superior
+                </label>
+                <label>
+                    <input type="checkbox" name="escolaridade" value="doutorado">Doutorado
+                </label>
+                <label>
+                    <input type="checkbox" name="escolaridade" value="mestrado">Mestrado
+                </label>
+            </div>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <br>
+                    <label><strong>Formação</strong></label>
+                    <input type="text" name="name" placeholder="Formação">
+                </div>
+
+                <div class="campo">
+                    <br>
+                    <label><strong>Instituição de ensino</strong> </label>
+                    <input type="text" name="name" placeholder="Colégio Augusto Maia">
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <label><strong>Conclusão</strong></label>
+                <input type="date" style="width: 12.7em;" name="Conclusão" id="Conclusão">
+            </div>
+
+            <div class="campo">
+                <label><strong>Conte um pouco da sua experiência</strong></label>
+                <textarea rows="4" style="width: 27em" id="experiencia" nome="experencia"></textarea>
+            </div>
+
+        </form>
+
+        <div>
+            <form method="post" action="index.html" onsubmit="return teste()">
+                <input class="botao" type="submit" value="enviar">
+        </div>
+
+        <footer id="rodape">
+
+            <div id="rod_container">
+                <div id="rod_logo">
+                    <li><a href="index.html"><img src="img/logo.png" /></a></li>
+                </div>
+                <div>
+
+                    <div id="info">
+                        <ul>
+                            <li><a href="quemSomos.html">Quem somos</a></li>
+                            <li><a href="faleConosco.html">Fale conosco</a></li>
+                            <li><a href="trabalheConosco.html">Trabalhe conosco</a></li>
+                            <li><a href="">contato@eletronicshop.com.br</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="js/form_trab.js"></script>
+
 </body>
+
 </html>

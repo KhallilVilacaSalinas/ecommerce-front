@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: "Hepta Slab", Helvetica, Arial;
   font-size: 15px;
@@ -26,9 +27,11 @@ header {
   justify-content: flex-end;
   align-items: center;
 }
+
 main span {
   color: #388bc5;
 }
+
 .menu-openner {
   margin-right: 15px;
   font-size: 26px;
@@ -36,9 +39,11 @@ main span {
   padding: 5px 20px;
   border-radius: 5px;
 }
+
 .menu-openner span {
   margin-right: 10px;
 }
+
 .menu-closer {
   width: 32px;
   height: 32px;
@@ -53,12 +58,15 @@ aside {
   transition: all ease 0.2s;
   overflow-x: hidden;
 }
+
 aside.show {
   width: 30vw;
 }
+
 .cart--area {
   padding: 20px;
 }
+
 main {
   flex: 1;
   padding: 20px;
@@ -68,10 +76,12 @@ main h1 {
   text-align: center;
   margin-bottom: 60px;
 }
+
 .models-area {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .models-item {
   text-align: center;
   max-width: 220px;
@@ -86,19 +96,23 @@ main h1 {
   flex-direction: column;
   align-items: center;
 }
+
 .models-item a {
   text-decoration: none;
 }
+
 .models-item--img {
   width: 200px;
   height: 200px;
   background-color: #eee;
   border-radius: 20px;
 }
+
 .models-item--img img {
   width: 100%;
   height: auto;
 }
+
 .models-item--add {
   width: 50px;
   height: 50px;
@@ -112,20 +126,24 @@ main h1 {
   margin-top: 50px;
   transition: all ease 0.2s;
 }
+
 .models-item a:hover .models-item--add {
   background-color: #244c88;
 }
+
 .models-item--price {
   font-size: 15px;
   color: #333;
   margin-top: 5px;
 }
+
 .models-item--name {
   font-size: 17px;
   font-weight: bold;
   color: #000;
   margin-top: 5px;
 }
+
 .models-item--desc {
   font-size: 11px;
   color: #555;
@@ -171,15 +189,18 @@ main h1 {
   padding-bottom: 50px;
   margin-left: 20px;
 }
+
 .models-info h1 {
   margin-top: 50px;
 }
+
 .models-info .models-info--desc {
   font-size: 15px;
   color: #999;
   margin-top: 10px;
   font-family: "Lato", Helvetica, Arial;
 }
+
 .models-info--sector {
   color: #ccc;
   text-transform: uppercase;
@@ -187,11 +208,13 @@ main h1 {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
 .models-info--sizes {
   display: inline-flex;
   border-radius: 10px;
   overflow: hidden;
 }
+
 .models-info--size {
   padding: 10px 15px;
   color: #000;
@@ -200,35 +223,43 @@ main h1 {
   font-weight: bold;
   cursor: pointer;
 }
+
 .models-info--size:hover {
   background-color: #ccc;
 }
+
 .models-info--size.selected {
   background-color: #399ade;
   color: #fff;
 }
+
 .models-info--size.selected span {
   color: #d6d6d6;
 }
+
 .models-info--size span {
   font-size: 12px;
   color: #999;
   font-weight: normal;
 }
+
 .models-info--price {
   display: flex;
   align-items: center;
 }
+
 .models-info--actualPrice {
   font-size: 28px;
   margin-right: 30px;
 }
+
 .models-info--qtarea {
   display: inline-flex;
   background-color: #eee;
   border-radius: 10px;
   height: 30px;
 }
+
 .models-info--qtarea button {
   border: 0;
   background-color: transparent;
@@ -238,6 +269,7 @@ main h1 {
   padding: 0px 10px;
   color: #333;
 }
+
 .models-info--qt {
   line-height: 30px;
   font-size: 12px;
@@ -245,6 +277,7 @@ main h1 {
   padding: 0px 5px;
   color: #000;
 }
+
 .models-info--addButton {
   margin-top: 30px;
   padding: 20px 30px;
@@ -255,9 +288,11 @@ main h1 {
   cursor: pointer;
   margin-right: 30px;
 }
+
 .models-info--addButton:hover {
   background-color: #32a345;
 }
+
 .models-info--cancelButton {
   display: inline-block;
   cursor: pointer;
@@ -267,10 +302,12 @@ main h1 {
   border-radius: 20px;
   transition: all ease 0.4s;
 }
+
 .models-info--cancelMobileButton:hover,
 .models-info--cancelButton:hover {
   opacity: 0.9;
 }
+
 .models-info--cancelMobileButton {
   display: none;
 
@@ -282,28 +319,34 @@ main h1 {
   border-radius: 0.5rem;
   transition: all ease 0.4s;
 }
+
 .cart {
   margin-bottom: 20px;
 }
+
 .cart--item {
   display: flex;
   align-items: center;
   margin: 10px 0;
 }
+
 .cart--item img {
   width: 40px;
   height: 40px;
   margin-right: 20px;
 }
+
 .cart--item-nome {
   flex: 1;
 }
+
 .cart--item--qtarea {
   display: inline-flex;
   background-color: #eee;
   border-radius: 10px;
   height: 30px;
 }
+
 .cart--item--qtarea button {
   border: 0;
   background-color: transparent;
@@ -313,6 +356,7 @@ main h1 {
   padding: 0px 10px;
   color: #000;
 }
+
 .cart--item--qt {
   line-height: 30px;
   font-size: 12px;
@@ -320,6 +364,7 @@ main h1 {
   padding: 0px 5px;
   color: #000;
 }
+
 .cart-value {
   padding: 15px 0;
   border-top: 1px solid #000;
@@ -328,14 +373,17 @@ main h1 {
   justify-content: space-between;
   font-size: 15px;
 }
+
 .cart-value span:first-child {
   font-weight: bold;
 }
+
 .cart-value.big {
   font-size: 20px;
   color: #000;
   font-weight: bold;
 }
+
 .cart--finalizar {
   padding: 20px 30px;
   border-radius: 20px;
@@ -347,6 +395,7 @@ main h1 {
   border: 2px solid #63f77c;
   transition: all ease 0.2s;
 }
+
 .cart--finalizar:hover {
   background-color: #35af4a;
 }
@@ -361,15 +410,19 @@ main h1 {
   body {
     flex-direction: column;
   }
+
   .models-area {
     display: block;
   }
+
   .models-item {
     max-width: 100%;
   }
+
   header {
     display: flex;
   }
+
   main {
     padding-top: 60px;
   }
@@ -383,9 +436,11 @@ main h1 {
     bottom: 0;
     transition: all ease 0.2s;
   }
+
   aside.show {
     width: auto;
   }
+
   .cart--area {
     width: 100vw;
   }
@@ -422,14 +477,17 @@ main h1 {
   .models-info--qtarea {
     height: 60px;
   }
+
   .models-info--qtarea button {
     font-size: 25px;
     padding: 0px 25px;
   }
+
   .models-info--qt {
     line-height: 60px;
     font-size: 20px;
   }
+
   .models-info--addButton {
     font-size: 20px;
     display: block;
@@ -454,45 +512,47 @@ main h1 {
 /* rodapé e cabeçalho */
 
 #rod_container {
-    background-color: #000;
-    width: 100%;
-    height: 200px;
-    border-radius: 10px;
+  background-color: #000;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
 }
+
 #rod_logo {
-    float: left;
-    margin-left: 50px;
-    max-width: 10px;
-    padding-top: 25px;
+  float: left;
+  margin-left: 50px;
+  max-width: 10px;
+  padding-top: 25px;
 }
 
 #info {
-    color: #fff;
-    font-size: 20px;
-    justify-content: space-around;
-    padding-top: 15px;
+  color: #fff;
+  font-size: 20px;
+  justify-content: space-around;
+  padding-top: 15px;
 }
 
-#info ul li, #contato_rod {
-    margin-left: 72%;
-    list-style: none;
-    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+#info ul li,
+#contato_rod {
+  margin-left: 72%;
+  list-style: none;
+  font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 #info ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-family: paytone -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 5px;
 }
 
 #info ul li:hover {
-    background-color: dimgray;
-    width: 22%;
+  background-color: dimgray;
+  width: 22%;
 }
 
-#header-1{
+#header-1 {
   background-color: black;
   width: 100%;
   height: 200px;
@@ -510,7 +570,7 @@ main h1 {
   width: 20%;
   height: 32px;
   display: flex;
-  
+
 }
 
 #cadastrar_logar li {
@@ -533,7 +593,7 @@ main h1 {
   text-align: center;
   padding-top: 35px;
   margin: 50px;
-  
+
 }
 
 #menu ul li {
@@ -549,7 +609,7 @@ main h1 {
 }
 
 #menu ul li:hover {
-  background-color:dimgray;
+  background-color: dimgray;
   width: 17%;
 }
 
@@ -573,17 +633,18 @@ main h1 {
 
 }
 
-#menu ul li:hover > ul, ul li ul:hover {
+#menu ul li:hover>ul,
+ul li ul:hover {
   visibility: visible;
   opacity: 1;
   display: block;
- 
+
 }
 
 #menu ul li ul li {
   clear: both;
   width: 80%;
-} 
+}
 
 #marca_topo {
   text-align: center;
@@ -616,7 +677,6 @@ main h1 {
   display: inline-block;
   margin-right: 20px;
   margin-left: 100px;
-  
+
 
 }
-
