@@ -7,8 +7,8 @@
  Project Description: EletronicShop é um Projeto em desenvolvimento para disciplina Tecnologia em Análise e desenvolvimento de Sistemas.:warning: :construction:
 </h4>
 
-Quem Somos
-uma empresa fundada em 2020 com o principal objetivo em oferecer os melhores produtos e os melhores acessórios com preços acessíveis, somos uma plataforma digital com os serviços necessários para que as pessoas tenham a possibilidade em comprar, pagar e vender seus produtos. Aqui você encontrará todo o tipo de equipamento eletrônico, como fones, celulares e computadores e tvs.
+Who we are
+a company founded in 2020 with the main objective of offering the best products and the best accessories at affordable prices, we are a digital platform with the necessary services for people to have the possibility to buy, pay and sell their products. Here you will find all kinds of electronic equipment, such as headphones, cell phones and computers and TVs.
 
 ## :hammer: Funcionalidades do projeto
 - `Homepage`: O projeto contém uma homepage, demostrando algumas variedades de produtos.
