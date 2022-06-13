@@ -672,11 +672,19 @@ ul li ul:hover {
 
 #cardProducts {
 
-  max-width: 400px;
+  width: 300px;
   margin-bottom: 100px;
   display: inline-block;
   margin-right: 20px;
   margin-left: 100px;
 
 
+
 }
+
+
+.card-img-top {
+
+  width: 400px;
+}
+
